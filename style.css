@@ -10,7 +10,8 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: 'Lato', sans-serif;
-  background-color: lightblue;
+  overflow: hidden;
+  background-color: #2b4eff;
 }
 
 .container {
@@ -39,8 +40,8 @@ body {
 .generate-joke {
   font-size: 20px;
   padding: 10px 50px;
-  background-color: black;
-  color: white;
-  border: none;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
   border-radius: 5px;
 }
