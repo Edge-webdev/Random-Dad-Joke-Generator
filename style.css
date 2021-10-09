@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   overflow: hidden;
   background-color: #2b4eff;
 }
@@ -21,27 +21,15 @@ body {
   flex-direction: column;
   border: 2px #000000 solid;
   padding: 20px;
-  height: 250px;
   width: calc(250px * (16 / 9));
-  background-color: white;
 }
 
 .title {
   font-size: 30px;
-  margin-top: 0;
   margin-bottom: 5px;
 }
 
 .joke {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.generate-joke {
-  font-size: 20px;
-  padding: 10px 50px;
-  background-color: white;
-  color: black;
-  border: 1px black solid;
-  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
